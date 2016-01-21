@@ -1,7 +1,10 @@
 {
   "globals": {
     "title": "Spirit8 - Digital Agency One Page Template",
-    "name"  : "Jonatan Raverta",
+	"description":"Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com",
+	"keywords":"bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme",
+	"author":"ThemeForces.com",
+	
     "uri": "https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template"
   }
 }
