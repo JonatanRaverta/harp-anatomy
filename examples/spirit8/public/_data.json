@@ -1,0 +1,26 @@
+{
+
+	"menu" : [{
+			"text" : "Home",
+			"href" : "#tf-home"
+		}, {
+			"text" : "About",
+			"href" : "#tf-about"
+		}, {
+			"text" : "Team",
+			"href" : "#tf-team"
+		}, {
+			"text" : "Services",
+			"href" : "#tf-services"
+		}, {
+			"text" : "Portfolio",
+			"href" : "#tf-works"
+		}, {
+			"text" : "Testimonials",
+			"href" : "#tf-testimonials"
+		}, {
+			"text" : "Contact",
+			"href" : "#tf-contact"
+		}
+	]
+}
