@@ -1,26 +1,39 @@
 {
-
-	"menu" : [{
-			"text" : "Home",
-			"href" : "#tf-home"
-		}, {
-			"text" : "About",
-			"href" : "#tf-about"
-		}, {
-			"text" : "Team",
-			"href" : "#tf-team"
-		}, {
-			"text" : "Services",
-			"href" : "#tf-services"
-		}, {
-			"text" : "Portfolio",
-			"href" : "#tf-works"
-		}, {
-			"text" : "Testimonials",
-			"href" : "#tf-testimonials"
-		}, {
-			"text" : "Contact",
-			"href" : "#tf-contact"
+	"index" : {
+		"section" : {
+			"tf-home" : {
+				"navItem" : true,
+				"title" : "Home",
+				"longTitle":"Welcome on <strong><span class='color'>Spirit8</span></strong>"
+			},
+			"tf-about" : {
+				"navItem" : true,
+				"title" : "About"
+			},
+			"tf-team" : {
+				"navItem" : true,
+				"title" : "Team"
+			},
+			"tf-services" : {
+				"navItem" : true,
+				"title" : "Services"
+			},
+			"tf-clients" : {
+				"navItem" : false,
+				"title" : "Clients"
+			},
+			"tf-works" : {
+				"navItem" : true,
+				"title" : "Portfolio"
+			},
+			"tf-testimonials" : {
+				"navItem" : true,
+				"title" : "Testimonials"
+			},
+			"tf-contact" : {
+				"navItem" : true,
+				"title" : "Contact"
+			}
 		}
-	]
+	}
 }

@@ -1,29 +1,7 @@
-<!-- Home Page
-==========================================-->
-<%- partial("_shared/homepage") %>
-<!-- About Us Page
-==========================================-->
-<%- partial("_shared/aboutus") %>
-<!-- Team Page
-==========================================-->
-<%- partial("_shared/team") %>
-<!-- Services Section
-==========================================-->
-<%- partial("_shared/services") %>
-<!-- Clients Section
-==========================================-->
-<%- partial("_shared/clients") %>
+<% for(var link in public._data.index.section){ %>
+	<%- partial("_shared/" + link,public._data.index.section[link] ) %>
+<% }; %>	
 
-<!-- Portfolio Section
-==========================================-->
-<%- partial("_shared/portfolio") %>
-
-<!-- Testimonials Section
-==========================================-->
-<%- partial("_shared/testimonials") %>
-<!-- Contact Section
-==========================================-->
-<%- partial("_shared/contact") %>
 
 
     

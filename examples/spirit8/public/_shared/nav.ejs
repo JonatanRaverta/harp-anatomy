@@ -15,9 +15,12 @@
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-		<% for(var link in public._data.menu){ %>
-			<li><a href="<%= public._data.menu[link].href %>" class="page-scroll"><%= public._data.menu[link].text %></a></li>
-		<% }; %>		
+		<% for(var link in public._data.index.section){ 
+				if (public._data.index.section[link].navItem) {
+		%>
+			<li><a href=" <%= current.source!='index'?'index.html':''%>#<%= link %>" class="page-scroll"><%= public._data.index.section[link].title %></a></li>
+		<% 		}
+		}; %>		
 	  </ul>
 	</div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
