@@ -3,36 +3,37 @@
 		"section" : {
 			"tf-home" : {
 				"navItem" : true,
-				"title" : "Home",
-				"longTitle":"Welcome on <strong><span class='color'>Spirit8</span></strong>"
+				"navTitle" : "Home",
+				"title":"Welcome on <strong><span class='color'>Spirit8</span></strong>",
+				"documentContent":"We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong>"
 			},
 			"tf-about" : {
 				"navItem" : true,
-				"title" : "About"
+				"navTitle" : "About"
 			},
 			"tf-team" : {
 				"navItem" : true,
-				"title" : "Team"
+				"navTitle" : "Team"
 			},
 			"tf-services" : {
 				"navItem" : true,
-				"title" : "Services"
+				"navTitle" : "Services"
 			},
 			"tf-clients" : {
 				"navItem" : false,
-				"title" : "Clients"
+				"navTitle" : "Clients"
 			},
 			"tf-works" : {
 				"navItem" : true,
-				"title" : "Portfolio"
+				"navTitle" : "Portfolio"
 			},
 			"tf-testimonials" : {
 				"navItem" : true,
-				"title" : "Testimonials"
+				"navTitle" : "Testimonials"
 			},
 			"tf-contact" : {
 				"navItem" : true,
-				"title" : "Contact"
+				"navTitle" : "Contact"
 			}
 		}
 	}

@@ -18,7 +18,7 @@
 		<% for(var link in public._data.index.section){ 
 				if (public._data.index.section[link].navItem) {
 		%>
-			<li><a href=" <%= current.source!='index'?'index.html':''%>#<%= link %>" class="page-scroll"><%= public._data.index.section[link].title %></a></li>
+			<li><a href=" <%= current.source!='index'?'index.html':''%>#<%= link %>" class="page-scroll"><%= public._data.index.section[link].navTitle %></a></li>
 		<% 		}
 		}; %>		
 	  </ul>
