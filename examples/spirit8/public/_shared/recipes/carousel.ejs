@@ -1,0 +1,13 @@
+<div id="team" class="owl-carousel owl-theme row">
+	<% for(var img in images){ %>
+	<div class="item">
+		<div class="thumbnail">
+			<img src="<%=imagePath + img %>" alt="<%=images[img].alt%>" class="img-circle team-img">
+			<div class="caption">
+				<%-images[img].title%>
+				<%-images[img].documentContent%>
+			</div>
+		</div>
+	</div>
+	<% }; %>
+</div>

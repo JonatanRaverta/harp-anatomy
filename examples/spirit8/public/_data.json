@@ -18,7 +18,56 @@
 			},
 			"tf-team" : {
 				"navItem" : true,
-				"navTitle" : "Team"
+				"navTitle" : "Team",
+				"title" : "Meet <strong>our team</strong>",
+				"documentContent" : "",
+				"partials" : {
+					"carousel" : {
+						"imagePath" : "img/team/",
+						"images" : {
+							"01.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"02.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"03.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"04.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"04.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"01.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"02.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							},
+							"03.jpg" : {
+								"alt" : "...",
+								"title" : "<h3>Jenn Gwapa</h3>",
+								"documentContent" : "<p>CEO / Founder</p><p>Do not seek to change what has come before. Seek to create that which has not.</p>"
+							}
+						}
+					}
+				}
 			},
 			"tf-services" : {
 				"navItem" : true,
