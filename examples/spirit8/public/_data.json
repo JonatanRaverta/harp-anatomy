@@ -4,12 +4,17 @@
 			"tf-home" : {
 				"navItem" : true,
 				"navTitle" : "Home",
-				"title":"Welcome on <strong><span class='color'>Spirit8</span></strong>",
-				"documentContent":"We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong>"
+				"title" : "Welcome on <strong><span class='color'>Spirit8</span></strong>",
+				"documentContent" : "We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong>"
 			},
 			"tf-about" : {
 				"navItem" : true,
-				"navTitle" : "About"
+				"navTitle" : "About",
+				"partials" : {
+					"staticHtml" : {
+						"path" : "../about"
+					}
+				}
 			},
 			"tf-team" : {
 				"navItem" : true,
